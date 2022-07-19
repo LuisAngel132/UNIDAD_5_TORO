@@ -1,0 +1,5 @@
+Navegador,Urls,Path_Tr,Path_Th,Elemento_X,Elemento_Y,Elementos_Grafica
+chrome,https://mx.investing.com/equities/mexico,"//*[@id=""cross_rate_markets_stocks_1""]/tbody/tr","//*[@id=""cross_rate_markets_stocks_1""]/thead/tr/th",Nombre,Máximo,2
+,https://mx.investing.com/equities/united-states,"//*[@id=""cross_rate_markets_stocks_1""]/tbody/tr","//*[@id=""cross_rate_markets_stocks_1""]/thead/tr/th",Nombre,Máximo,3
+,https://mx.investing.com/equities/united-kingdom,"//*[@id=""cross_rate_markets_stocks_1""]/tbody/tr","//*[@id=""cross_rate_markets_stocks_1""]/thead/tr/th",Nombre,Máximo,4
+,https://mx.investing.com/equities/germany,"//*[@id=""cross_rate_markets_stocks_1""]/tbody/tr","//*[@id=""cross_rate_markets_stocks_1""]/thead/tr/th",Nombre,Máximo,5
