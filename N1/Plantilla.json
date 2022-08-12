@@ -1,0 +1,112 @@
+[
+   {
+      "navegator": "Chrome",
+      "URL": "https://mx.investing.com/equities/mexico",
+      "readTable": {
+         "read" : true,
+         "chart": {
+            "x": "Nombre",
+            "y": "Máximo",
+            "quantity": 2
+         }
+      },
+      "elements": [
+         {
+            "action": "click",
+            "value": null,
+            "type": "xpath",
+            "selector": "//*[@id='PromoteSignUpPopUp']/div[2]/i"
+         },
+         {
+            "action": "read_table",
+            "value": null,
+            "type_th": "xpath",
+            "selector_th": "//*[@id='cross_rate_markets_stocks_1']/thead/tr/th",
+            "type_tb": "xpath",
+            "selector_tb": "//*[@id='cross_rate_markets_stocks_1']/tbody/tr"
+         },
+         {
+            "action": "click",
+            "value": null,
+            "type": "xpath",
+            "selector": "//*[@id='countryDropdownBtn']/i[3]"
+         },
+         {
+            "action": "click",
+            "value": null,
+            "type": "xpath",
+            "selector": "//*[@id='countries']/li[3]/a"
+         },
+         {
+            "action": "read_table",
+            "value": null,
+            "type_th": "xpath",
+            "selector_th": "//*[@id='cross_rate_markets_stocks_1']/thead/tr/th",
+            "type_tb": "xpath",
+            "selector_tb": "//*[@id='cross_rate_markets_stocks_1']/tbody/tr"
+         },
+         {
+            "action": "click",
+            "value": null,
+            "type": "xpath",
+            "selector": "//*[@id='countryDropdownBtn']/i[3]"
+         },
+         {
+            "action": "click",
+            "value": null,
+            "type": "xpath",
+            "selector": "//*[@id='countries']/li[2]/a"
+         },
+         {
+            "action": "read_table",
+            "value": null,
+            "type_th": "xpath",
+            "selector_th": "//*[@id='cross_rate_markets_stocks_1']/thead/tr/th",
+            "type_tb": "xpath",
+            "selector_tb": "//*[@id='cross_rate_markets_stocks_1']/tbody/tr"
+         }
+      ]
+   },
+   {
+      "navegator": "Chrome",
+      "URL": "https://www.estrategiasdeinversion.com/cotizaciones/criptomonedas",
+      "readTable": {
+         "read" : true,
+         "chart": {
+            "x": "Club",
+            "y": "GF",
+            "quantity": 10
+         }
+      },
+      "elements": [
+         {
+            "action": "click",
+            "value": null,
+            "type": "xpath",
+            "selector": "//*[@id='didomi-notice-agree-button']"
+         },
+         {
+            "action": "read_table",
+            "value": null,
+            "type_th": "xpath",
+            "selector_th": "//*[@id='pane-1_tbl_quotation--index']/div/div/article/table/thead/tr",
+            "type_tb": "xpath",
+            "selector_tb": "//*[@id='pane-1_tbl_quotation--index']/div/div/article/table/tbody/tr[1]"
+         },
+         {
+            "action": "click",
+            "value": null,
+            "type": "xpath",
+            "selector": "//*[@id='stockTabSupportAndResist']"
+         },
+         {
+            "action": "read_table",
+            "value": null,
+            "type_th": "xpath",
+            "selector_th": "//*[@id='pane-2_tbl_quotation--index']/div/div/article/table/thead/tr",
+            "type_tb": "xpath",
+            "selector_tb": "//*[@id='pane-2_tbl_quotation--index']/div/div/article/table/tbody/tr[1]"
+         }
+      ]
+   }
+]

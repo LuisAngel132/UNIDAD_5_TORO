@@ -1,8 +1,8 @@
 Navegador,Url,Path_Formulario_Input,Valor_Input,Path_Formulario_Select,Valor_Select,Path_Formulario_Checkbox,Guardar_Botton
-chrome,https://midotonline.com/productos-midot/?gclid=EAIaIQobChMIi6CUnKmF-QIVIQh9Ch39OgRNEAAYASAAEgK-H_D_BwE,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[2]/div[1]/span/input",Angel,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[6]/div/span/select",PyME,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[7]/div/span/span/span/input","//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[8]/button"
-,,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[2]/div[2]/span/input",,,,,
-,,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[3]/div[1]/span/input",,,,,
+chrome,https://midotonline.com/productos-midot/?gclid=EAIaIQobChMIi6CUnKmF-QIVIQh9Ch39OgRNEAAYASAAEgK-H_D_BwE,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[2]/div[1]/span/input",Nestor,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[6]/div/span/select",PyME,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[7]/div/span/span/span/input","//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[8]/button"
+,,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[2]/div[2]/span/input",Puentes,,,,
+,,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[3]/div[1]/span/input",Pracita Selenium,,,,
 ,,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[3]/div[2]/span/input",2,,,,
 ,,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[4]/div[1]/span/input",Torreon,,,,
-,,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[4]/div[2]/span/input",8732894398,,,,
-,,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[5]/div/span/input",laguner22090@gmail.com,,,,
+,,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[4]/div[2]/span/input",8711223344,,,,
+,,"//*[@id=""wpcf7-f8058-p8041-o1""]/form/div[2]/div[5]/div/span/input",nestor@gmail.com,,,,

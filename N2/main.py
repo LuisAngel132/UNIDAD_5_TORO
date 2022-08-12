@@ -1,6 +1,7 @@
+import time
 import pandas as pd
 from classelenium import Selenium
-df = pd.read_csv('Plantilla.csv')
+df = pd.read_csv(r'D:\UTT TIDSM\9no ING\AdministracionBD\Selenium\UNIDAD_5_TORO\N2\Plantilla.csv')
 sl = Selenium()
 drive = sl.navegador(df['Navegador'][0])
 cont = 0
@@ -19,5 +20,7 @@ cont = 0
 while(all>cont):
     sl.write_Checkbox(drive,df['Path_Formulario_Checkbox'][cont])
     cont +=1
+
+time.sleep(3)
 sl.save(drive,df["Guardar_Botton"][0])
 drive.close()
