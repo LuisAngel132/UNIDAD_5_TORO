@@ -1,0 +1,86 @@
+[
+   {
+      "navegator": "Chrome",
+      "URL": "https://midotonline.com/productos-midot/?gclid=EAIaIQobChMIi6CUnKmF-QIVIQh9Ch39OgRNEAAYASAAEgK-H_D_BwE",
+      "readTable": {
+         "read" : false,
+         "chart": {
+            "x": "",
+            "y": "",
+            "quantity": 0
+         }
+      },
+      "elements": [
+         {
+            "action": "write",
+            "input_type": "text",
+            "value": "Néstor",
+            "type": "xpath",
+            "selector": "//*[@id='wpcf7-f8058-p8041-o1']/form/div[2]/div[2]/div[1]/span/input"
+         },
+         {
+            "action": "write",
+            "input_type": "text",
+            "value": "Puentes",
+            "type": "xpath",
+            "selector": "//*[@id='wpcf7-f8058-p8041-o1']/form/div[2]/div[2]/div[2]/span/input"
+         },
+         {
+            "action": "write",
+            "input_type": "text",
+            "value": "Practica 2 Selenium",
+            "type": "xpath",
+            "selector": "//*[@id='wpcf7-f8058-p8041-o1']/form/div[2]/div[3]/div[1]/span/input"
+         },
+         {
+            "action": "write",
+            "input_type": "text",
+            "value": "2",
+            "type": "xpath",
+            "selector": "//*[@id='wpcf7-f8058-p8041-o1']/form/div[2]/div[3]/div[2]/span/input"
+         },
+         {
+            "action": "write",
+            "input_type": "text",
+            "value": "Torreon",
+            "type": "xpath",
+            "selector": "//*[@id='wpcf7-f8058-p8041-o1']/form/div[2]/div[4]/div[2]/span/input"
+         },
+         {
+            "action": "write",
+            "input_type": "text",
+            "value": "8711223344",
+            "type": "xpath",
+            "selector": "//*[@id='wpcf7-f8058-p8041-o1']/form/div[2]/div[4]/div[2]/span/input"
+         },
+         {
+            "action": "write",
+            "input_type": "text",
+            "value": "nestor@gmail.com",
+            "type": "xpath",
+            "selector": "//*[@id='wpcf7-f8058-p8041-o1']/form/div[2]/div[5]/div/span/input"
+         },
+         {
+            "action": "select",
+            "input_type": "select",
+            "value": "PyME",
+            "type": "xpath",
+            "selector": "//*[@id='wpcf7-f8058-p8041-o1']/form/div[2]/div[6]/div/span/select"
+         },
+         {
+            "action": "click",
+            "input_type": "checkbox",
+            "value": null,
+            "type": "xpath",
+            "selector": "//*[@id='wpcf7-f8058-p8041-o1']/form/div[2]/div[7]/div/span/span/span/input"
+         },
+         {
+            "action": "click",
+            "input_type": "button",
+            "value": null,
+            "type": "xpath",
+            "selector": "//*[@id='wpcf7-f8058-p8041-o1']/form/div[2]/div[8]/button"
+         }        
+      ]
+   }
+]
