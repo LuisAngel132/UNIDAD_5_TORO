@@ -54,25 +54,43 @@ class ClassSelenium:
     
 
     def Click(self, element):
-        element.click()
+        try:
+            element.click()
+        except NoSuchElementException:
+            return
         pass
     def WriteInput(self, element, value):
-        element.click()
-        time.sleep(.2)
-        element.send_keys(value)
+        try:
+            element.click()
+            time.sleep(.2)
+            element.send_keys(value)
+        except NoSuchElementException:
+            return
         pass
     def WriteSelect(self, element, value):
-        element.select_by_visible_text(value)
+        try:
+            element.select_by_visible_text(value)
+        except NoSuchElementException:
+            return
         pass
     def Submit(self, element):
-        element.submit()
+        try:
+            element.submit()
+        except NoSuchElementException:
+            return
         pass
     def MoveToElementAndClick(self, element):
-        ActionChains(self.driver).move_to_element(element).click().perform()
+        try:
+            ActionChains(self.driver).move_to_element(element).click().perform()
+        except NoSuchElementException:
+            return
         # element.move_to_element(element).click().perform()
         pass
     def DobleClick(self, element):
-        ActionChains(self.driver).double_click(element).click().perform()
+        try:
+            ActionChains(self.driver).double_click(element).click().perform()
+        except NoSuchElementException:
+            return
         pass
     def ReadTable(self, type_th,selector_th, type_tb,selector_tb):
         def FindBy(type, selector):
@@ -107,21 +125,19 @@ class ClassSelenium:
         pass
     
     def ElementAction(self, element, action, value):
-        if action == 'click':
-            self.Click(element)
-        elif action == 'write_input':
-            self.WriteInput(element,value)
-        elif action == 'write_select':
-            self.WriteSelect(element,value)
-        elif action == 'submit':
-            self.Submit(element)
-        elif action == 'move_to_element_and_click':
-            self.MoveToElementAndClick(element)
-        elif action == 'doble_click':
-            self.DobleClick(element)
-        pass
-
-    
-
-    
-
+        try:
+            if action == 'click':
+                self.Click(element)
+            elif action == 'write_input':
+                self.WriteInput(element,value)
+            elif action == 'write_select':
+                self.WriteSelect(element,value)
+            elif action == 'submit':
+                self.Submit(element)
+            elif action == 'move_click':
+                self.MoveToElementAndClick(element)
+            elif action == 'doble_click':
+                self.DobleClick(element)
+        except NoSuchElementException:
+            return
+        

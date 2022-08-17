@@ -15,15 +15,15 @@ pa = Classpanda()
 sl = ClassSelenium()
 
 objList = ObjPlantilla().GetObjects(path_file)
-print(objList[0])
 books =[]
 count = 0
 for obj in objList:
     print(obj.navegator)
     drive = sl.navegador(obj.navegator)
     sl.ventana(drive,obj.URL)
-    time.sleep(10)
+    time.sleep(5)
     for element in obj.elements:
+        print("\n"+count+") elemento: "+element.selector+"\naccion: "+element.action+"\n")
         if element.action != "read_table":
             sl.FindByAndAction(element.type, element.selector, element.action, element.value)
             continue

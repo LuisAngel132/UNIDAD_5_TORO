@@ -11,12 +11,7 @@
          }
       },
       "elements": [
-         {
-            "action": "click",
-            "value": null,
-            "type": "xpath",
-            "selector": "//*[@id='PromoteSignUpPopUp']/div[2]/i"
-         },
+         
          {
             "action": "read_table",
             "value": null,
@@ -79,12 +74,7 @@
          }
       },
       "elements": [
-         {
-            "action": "click",
-            "value": null,
-            "type": "xpath",
-            "selector": "//*[@id='didomi-notice-agree-button']"
-         },
+         
          {
             "action": "read_table",
             "value": null,
